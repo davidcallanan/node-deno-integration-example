@@ -1,5 +1,4 @@
-# node-deno-integration
+# Deno and Node Integration
 
- - `cd node_app`
- - `deno bundle deno_integration/deps.ts deno_integration/deps.bundle.esm.js`
- - `node app.js`
+ - `deno bundle packages.node/deps.ts packages.node/deps.bundle.mjs`
+ - `node node_app/app.js`

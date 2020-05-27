@@ -1,2 +1,2 @@
-import { shuffle } from "../packages.bundle.js";
+import { shuffle } from "../deps.bundle.mjs";
 export const { shuffleArray, shuffleString } = shuffle;

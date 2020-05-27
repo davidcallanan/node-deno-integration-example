@@ -1,3 +1,7 @@
 {
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@-/case": "link:../packages.node/case",
+    "@-/shuffle": "link:../packages.node/shuffle"
+  }
 }

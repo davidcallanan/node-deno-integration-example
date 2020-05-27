@@ -1,0 +1,7 @@
+dependencies:
+  '@-/case': 'link:../packages.node/case'
+  '@-/shuffle': 'link:../packages.node/shuffle'
+lockfileVersion: 5.1
+specifiers:
+  '@-/case': 'link:..\packages.node\case'
+  '@-/shuffle': 'link:..\packages.node\shuffle'

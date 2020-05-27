@@ -1,2 +1,2 @@
-import { case_ } from "../packages.bundle.js";
+import { case_ } from "../deps.bundle.mjs";
 export const { camelCase, /* etc. */ } = case_;

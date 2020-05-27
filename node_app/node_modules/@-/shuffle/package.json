@@ -1,4 +1,5 @@
 {
 	"name": "@-/shuffle",
+	"type": "module",
 	"main": "index.js"
 }

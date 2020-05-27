@@ -1,5 +1,5 @@
-import { shuffleString } from "./deps/shuffle.js";
-import { camelCase } from "./deps/case.js";
+import { shuffleString } from "@-/shuffle";
+import { camelCase } from "@-/case";
 import readlineFactory from "readline";
 
 const readline = readlineFactory.createInterface({
