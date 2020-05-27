@@ -8,7 +8,3 @@ export function shuffleArray<T>(arr: Array<T>) {
 
   return arr;
 }
-
-export function shuffleString(str: string): string {
-  return shuffleArray(str.split("")).join("");
-}
