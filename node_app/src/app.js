@@ -7,7 +7,7 @@ const readline = readlineFactory.createInterface({
   output: process.stdout
 });
 
-readline.question("State a controversial opinion: ", (sentence) => {
+readline.question("Type in an interesting sentence: ", (sentence) => {
   const newSentence = camelCase(sentence.split(" ").map(word => shuffleString(word)).join(" "));
   console.log("You're sentence has been scrambled and camel-cased!");
   console.log(newSentence);
